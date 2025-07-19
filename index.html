@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taste the World</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .hero {
+      background-image: url('food.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      color: white;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6); 
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .hero-text h1 {
+      font-size: 40px;
+      margin: 0;
+    }
+
+    .hero-text p {
+      font-size: 20px;
+      margin: 10px 0 20px;
+    }
+
+    .btn {
+      background: #08f700;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="hero-text">
+      <h1>Welcome to Taste the World</h1>
+      <p>Where cultures meet on your plate</p>
+      <a href="Restauranthomepage.html" class="btn">Explore Menu</a>
+      <footer style="margin-top: 50px; text-align: center;">
+  <button style="background-color: #08f700; border: none; padding: 10px 15px; border-radius: 5px;">
+    <a href="Aboutus.html" style="text-decoration: none; color: black; font-weight: bold;">About Us</a>
+  </button>
+  |
+  <button style="background-color: #08f700; border: none; padding: 10px 15px; border-radius: 5px;">
+    <a href="Contactus.html" style="text-decoration: none; color: black; font-weight: bold;">Contact</a>
+  </button>
+</footer>
+
+</footer>
+    </div>
+  </div>
+</body>
+</html>
